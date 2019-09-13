@@ -1,7 +1,7 @@
 body{
   font-size:10rem;
-  background-color:magenta;
-  color:magenta;
+  background-color:black;
+  color:black;
   font-family:sans-serif;
 
 }
@@ -12,7 +12,7 @@ body{
 	display: block;
 	height:10px;
 	width: 1500px;
-border: .05px solid magenta;
+border: .05px solid black;
 }
 
 @keyframes animateMe {
