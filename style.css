@@ -1,0 +1,22 @@
+body{
+  font-size:10rem;
+  background-color:magenta;
+  color:magenta;
+  font-family:sans-serif;
+
+}
+
+.patternUnit{
+  position:relative;
+  animation: infinite 15s animateMe;
+	display: block;
+	height:10px;
+	width: 1500px;
+border: .05px solid magenta;
+}
+
+@keyframes animateMe {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+
+}
