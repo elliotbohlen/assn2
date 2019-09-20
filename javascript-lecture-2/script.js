@@ -16,8 +16,7 @@ console.log(newVar);
 /******** TEMPLATE LITERALS********/
 //math
 /*
-var randomnum = Math.random();
-  console.log("random number:", Math.round(randomnum * 15));
+1  console.log("random number:", Math.round(randomnum * 15));
 //produces decimal unless u multiply by ten
 
   Math.round()
