@@ -1,0 +1,23 @@
+body{
+  font-size:10rem;
+  background-color:red;
+  color:white;
+  font-family:sans-serif;
+  letter-spacing: -25px;
+
+}
+
+.patternUnit{
+  position:relative;
+  animation: infinite 20s animateMe;
+	display: block;
+	height:10px;
+	width: 1500px;
+border: .5px dashed white;
+}
+
+@keyframes animateMe {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(350deg);}
+
+}
