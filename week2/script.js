@@ -49,7 +49,7 @@ for (var i = 0; i < 300; i++) {
   // the for loop runs 50 times, so it adds the div below 50 times
   // the string below contains a div, which is added (+=) to our wrapper with each for loop cycle.
   // within our string, we are using the variable "i" to generate numbers that output inline css values
-  myWrapper.innerHTML += '<div class="patternUnit" style="transform: skew('+ (i * 300) +'deg); ">xxxxxxxs⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤</div>';
+  myWrapper.innerHTML += '<div class="patternUnit" style="transform: skew('+ (i * 300) +'deg); "⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤</div>';
 
 }
 
