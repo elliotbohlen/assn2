@@ -1,0 +1,12 @@
+h1{
+	color: blue;
+}
+
+.patternUnit{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin-right: 5px;
+	margin-bottom: 20px;
+	background-color: rgb(255,0,0);
+}
