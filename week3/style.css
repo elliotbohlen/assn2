@@ -1,9 +1,13 @@
 body{
   font-size:1rem;
   background-color:black;
+margin:0px;
+    padding:0px;
 }
 
 #wrapper{
+    position:absolute;
+    top:-40px;
     animation: infinite 20s animateMe;
 }
 

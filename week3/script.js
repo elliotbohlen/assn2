@@ -10,10 +10,10 @@ var myAppendingFunction = function(){
     position:absolute;
     right:${j*20}px;
     display:inline-block;
-    height:800px;
-    width: 800px;
+    height:700px;
+    width: 700px;
     border-radius: 50%;
-    border: ${i+.5}px solid white;"
+    border: ${i*2}px solid white;"
         ></div>`);
 
 	if(j >= 6000){ // defining the maximum amount of cycles
