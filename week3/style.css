@@ -7,7 +7,7 @@ margin:0px;
 
 #wrapper{
     position:absolute;
-    top:-40px;
+    top:0px;
     animation: infinite 20s animateMe;
 }
 
