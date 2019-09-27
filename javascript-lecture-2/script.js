@@ -1,27 +1,3 @@
-/*
-for (var i = 0; i < array.length; i++) {
-  console.log(i)
-}
-
-
-var myVar = '<h1>string';
-var newVar = myVar + ' another string </h1>';
-console.log(newVar);
-//combines vars to make a new string
-
-
-  //myWrapper.innerHTML = newVar; //inner html appendss
-
-
-/******** TEMPLATE LITERALS********/
-//math
-/*
-1  console.log("random number:", Math.round(randomnum * 15));
-//produces decimal unless u multiply by ten
-
-  Math.round()
-  Math.ciel(rounds up), Math.floor(round down)
-*/
 var myWrapper = document.getElementById("wrapper");
 
 var changingColor = 10; //global variable, starts at 10. every time loop runs, updated by value of twenty
@@ -36,8 +12,10 @@ var changingColor = 10; //global variable, starts at 10. every time loop runs, u
     }
 
   var myModule = `
-    <div class="module" style="background-color: rgb(${changingColor},0,0);">
+    
       <div class="module_child" style="
+    position:relative;
+    display:inline-block;
       background-color:rgb(255,${changingColor},0);
       transform:rotate(${degrees}deg);">
       ${i}
@@ -45,12 +23,9 @@ var changingColor = 10; //global variable, starts at 10. every time loop runs, u
     </div>`; //under esape key, backticks allows to enter
           // ${ puts variable in here}
     //myWrapper.innerHTML =+ myModule; //= overrides/ adds to
-    if (i % 2 === 0){
-      myWrapper.insertAdjacentHTML('beforeend', myModule); //even =adds to the end
-    }else{
-      ((i-1)/10 * 360) //odd
-        myWrapper.insertAdjacentHTML('afterend', myModule) //technically could put another template module with a diff variable
-    }
+    
+        myWrapper.insertAdjacentHTML('beforeend', myModule) //technically could put another template module with a diff variable
+    
           //instead of append child- use insertAdjacentHTML
           //'beforebegin' beore a specific element starts
           //'afterbegin' after the start of wrapper
@@ -61,6 +36,11 @@ var changingColor = 10; //global variable, starts at 10. every time loop runs, u
 
 
 /*
+
+<div class="module" style="background-color: rgb(${changingColor},0,0);">
+
+
+
 //while statements
 var i = 0;
 var myString = "hey"

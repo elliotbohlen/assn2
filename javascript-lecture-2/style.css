@@ -2,13 +2,15 @@ html{
   padding-left: 10px;
 }
 
-.module{
-  width: 100vw;
-  height:50px;
-}
-
 .module_child{
-  position: absolute;
   width:40px;
   height:30px;
+  animation: infinite 20s animateMe;
+}
+
+
+@keyframes animateMe {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(350deg);}
+
 }
