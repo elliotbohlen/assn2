@@ -13,7 +13,7 @@ var myAppendingFunction = function(){
     height:700px;
     width: 700px;
     border-radius: 50%;
-    border: ${j*2}px solid white;"
+    border: 2px solid white;"
         ></div>`);
 
 	if(j >= 6000){ // defining the maximum amount of cycles
