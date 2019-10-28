@@ -8,13 +8,61 @@ body{
 }
 
 .patternunit{
-    position:absolute;
+    animation: 10s infinite animateMe;
     display:inline-block;
+    top: -300px;
     height:100px;
     width: 100px;
-    border-radius: 50%;
-    border: 1.5px solid black;
+    border-radius:50% ;
+    border: 1.5px solid red;
 }
+
+
+.line{
+    width:100vw;
+    height:1px;
+    background-color: red;
+    
+}
+#bg{ 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100vw;
+    height:100vh;
+}
+#bg2{ 
+    animation: 10s infinite animateMe;
+    position:fixed;
+    top:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100vw;
+    height:100vh;
+    transform:rotate(90deg);
+    background-color:red;
+    opacity: .3;
+}
+#wrapper{
+    height:900px;
+    width: 100%;
+}
+
+#box2{
+    top: 20px;
+    position:absolute;
+}
+
+#box3{
+    position:absolute;
+    top: 40px;
+}
+#box4{
+     position:absolute;
+    top: 60px;
+}
+
 
 @keyframes animateMe {
   0%{transform: skew(0deg);}
@@ -28,3 +76,10 @@ body{
 
 }
 
+
+
+#example-3{
+    background-color: aquamarine;
+    height:300px;
+    width:300px;
+}
